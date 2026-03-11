@@ -22,4 +22,7 @@ class AVLTree:
         return right_node_height - left_node_height
     
     def right_rotate(self, node: Node):
-        
+        left_node = node.left
+        right_node = node.right
+
+        right_node.right = 
